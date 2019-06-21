@@ -11,11 +11,26 @@ do
         --environment=*)
             ENVIRONMENT="${i#*=}"
             ;;
-        --num=*)
-            NUM="${i#*=}"
-            ;;
         --size=*)
             SIZE="${i#*=}"
+            ;;
+        --region=*)
+            REGION="${i#*=}"
+            ;;
+        --hostname=*)
+            HOSTNAME="${i#*=}"
+            ;;
+        --subscriptionid=*)
+            SUBSCRIPTIONID="${i#*=}"
+            ;;
+        --clientid=*)
+            CLIENTID="${i#*=}"
+            ;;
+        --clientsecret=*)
+            CLIENTSECRET="${i#*=}"
+            ;;
+        --tenantid=*)
+            TENANTID="${i#*=}"
             ;;
         *)
             # unknown option
@@ -63,22 +78,21 @@ ansible=$(which ansible-playbook)
 
 ssh-keygen -t rsa -b 4096 -f ./ansible-key -N ''
 
-# echo $terraform apply -var app_name=${APP} -var environment=${ENVIRONMENT} -var num_servers=${NUM} -var instance_type=${SIZE} terraform 
-# $terraform apply -var app_name=${APP} -var environment=${ENVIRONMENT} -var num_servers=${NUM} -var instance_type=${SIZE} -var ssh_key="$(cat ./ansible-key.pub)" terraform
+$terraform init terraform
+echo $terraform apply -var app_name=${APP} -var environment=${ENVIRONMENT} -var instance_type=${SIZE} -var region=${REGION} -var hostname=${HOSTNAME} -var subscription_id=${SUBSCRIPTIONID} -var client_id=${CLIENTID} -var client_secret=${CLIENTSECRET} -var tenant_id=${TENANTID} terraform 
+$terraform apply -var app_name=${APP} -var environment=${ENVIRONMENT} -var instance_type=${SIZE} -var region=${REGION} -var hostname=${HOSTNAME} -var subscription_id=${SUBSCRIPTIONID} -var client_id=${CLIENTID} -var client_secret=${CLIENTSECRET} -var tenant_id=${TENANTID} -var ssh_key="$(cat ./ansible-key.pub)" terraform
 
-# echo '[wordpress]' > ansible/inventory
+echo '[wordpress]' > ansible/inventory
 
-# $terraform output public_ip | sed -e 's/,$//' >> ansible/inventory
-
-
-# echo $ansible -i ansible/inventory --key-file="./ansible-key" ansible/site.yml
-# $ansible -i ansible/inventory --key-file="./ansible-key" ansible/site.yml 
-
-# echo "Connect to wordpress app using below ELB DNS Name"
-# echo "ELB DNS might take few minutes to be available"
-
-# $terraform output elb_dns_name
+echo az vm show --resource-group ${APP}-${ENVIRONMENT}-ResourceGroup --name ${APP}-${ENVIRONMENT}-VM -d --query [publicIps] --o tsv | sed -e 's/,$//'
+az vm show --resource-group ${APP}-${ENVIRONMENT}-ResourceGroup --name ${APP}-${ENVIRONMENT}-VM -d --query [publicIps] --o tsv | sed -e 's/,$//' >> ansible/inventory
 
 
+echo $ansible -i ansible/inventory --key-file="./ansible-key" ansible/site.yml
+sudo $ansible -i ansible/inventory --key-file="./ansible-key" ansible/site.yml 
+
+echo "Connect to wordpress app using the IP address below"
+
+az vm show --resource-group ${APP}-${ENVIRONMENT}-ResourceGroup --name ${APP}-${ENVIRONMENT}-VM -d --query [publicIps] --o tsv
 
 
