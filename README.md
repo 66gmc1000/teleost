@@ -1,46 +1,5 @@
 # teleost
 
-                                            .                                             
-                                          ./'                                             
-                                        '/y-                                              
-                '''                    .syys-                                             
-             -:-...-::'               :yyhyyyo-'      ''                                  
-           .:'       '::'            :yyyyyhyyhyo+//+/'                                   
-          :.           .+-          :syyyyyyyyyyyyyyy+                                    
-         :'              //'       .syyyyyyyyyyysyyyyys:.                              .:-
-        :'                -o.      osyyyyyyyyyysyyyyyyyyyyo+/+o.'                  ':+so. 
-       -.                  -o-    -ssyyyyyyyyysyyyyyyyyyyyyyhhy'                 -oyyys'  
-      '/                    .s: '.+oysyyyyyyyssysyyyyyyyyyyyyhhy:              :yyyyyys   
-      :-                     .yosys+sssssysysssssssssyyyyyyyyyyhhyo/:--.'    -syyyyyyyyo' 
-     'o.              ':+++//:ssssysyssysysssyyysssssosssssooossosss/.      +hhyyyyyyyyss+
-     /o.             :sso//::/ooosyssysssysosssssssssssssssoosssoss/:.'   .yhhhhyyyysssss'
-    /oo:            'dss+++++ooosoyysysysyossssssssssyssssossooooooossoo++yyhhhyyyyyysss- 
-   +oo+          'dyssoooossssossossssyosssyysssssssosssoooosoosyysssoooooosyyyyyyyys 
-    .++'        /ysyyyhyhyssssyyssyyssyyysosossssosooossooosoooossooooooosoooyssyyyyyyys- 
-               'mdyssyyhyhhhdhyyssssoossyyssoooosooo+oossssssosossssssssososyyhysssssyyso
-               -+yoosyyhhhhyyyyoysoooosssoosoo+o+/+++++oooooossssososssyyyyhhyyyyyyssssso/
-            .:oosoohhyysyyyhyyyyssooooossoo++oo+///++oossoosssssssssyyyhddmdyyyyyyssss/.  
-         '-:+/::+sssyyyyshysyyyysssososososoo/++o+/++o+osssssyyyyyyyyyhdo/++++yyyyyso.    
-       ''''..-/:/-/sshssyyyyyso+ooyosoooyos+/+/++osyyyyyyyyyyyyyyyhhdd+'       ./oys'     
-     '   ''.' .  '--/syyysyyyyyssooo+o+osos//oyyyyyyhhhyyyyyyyyhhhdh/             ':'     
-  '  .  .'    .''    -ossssssoyhyoso+ooyssysyyyyyhhhhhhhhhhhhhdhhh/                       
-- .' '. ''    -. '''.' -syoosyosyssyo+oossdhyhhhhhhhhhhyyyyyhhhhh+.                       
-o/.-. :- .'   ::'.  .  ..+ssoosssssssosooshdhhhhhhhyhyyyyyyyyh+--..-----.                 
-'+o+/:o+/:/::/+o::-.-'-:' .+yssooossosssooyddddddddhhhhhhhhdh.                            
- -s+osyyyssssosssooooo++/::.oyosssosssoysosddhhhhhdddddddhdo                              
-.hyyooyyyyyyyssyyyyyyyyyyossoshysooossosssshdddhhhhyhhhhhh+                               
-'yyyyhsosysyyssysssyssyyyyyyssshhyssosssyyyyhhdmddhhhhhhs..---'                           
- :dhyyyyysyossyyyyyyssyyyyyhyhhhdysososssyyysshhdmddhdd+                                  
-  /ddhhyyyyssssooyyyshhyyysyyyyyhyyyyssssyhhysyhhhdddy.                                   
-   'odddhhysssysssoosoyyyyyyyhhhhysyyssyyyyhyyhdhddh+'                                    
-     -ydddddhhhyssssssosyysyyyyssyyyyyyyyhyhhhddmh/  .'                                   
-       .+hdddddddhhhyyyssssssssyyyyyhyyyhhhdddmh:                                         
-          -ohddddddddddddhhhhhhhhhhhhhhhdddddo-                                           
-             ./sddddddddddddddddddddddddmds:                                              
-                 .:/osydmmmdmmmmmmmdhyo:.                                                 
-                         ''....-.'                                                        
-                                                                                          
-
 Quickly deploy a containerized Wordpress/MariaDB instance in azure
 
 Note: This script works on debian distros only at this point (planned feature)
