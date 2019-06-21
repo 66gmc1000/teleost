@@ -1,56 +1,46 @@
 # teleost
-                                                                                                              
-                                                                                                              
-                                                     -:                                                       
-                                                   .o.                                                        
-                                                 `/ys`                                                        
-                    ```                         .syyyo.                                                       
-                `-::---::-`                    :syyyyys/`                                                     
-              `-:.      ``:/.                 /syyyyyyyyso/-````.--`                                          
-             ./.           `/:`              /syyyyyyyyyyhyyssoss:                                            
-            :-               :+-            :syyyyyyyyyyyyyyyyyyy+`                                           
-           :-                 .o:          .syyyyyyyyyyyyyysyyyyyys/.`                                    `.::
-          --                   `++`        osyyyyyyyyyyyyssyyyyyyyyyyso/:--::-.                        .:+so. 
-         .:                      +o.      -ssyyyyyyyyyyyssyyyyyyyyyyyyyyyyyhy                       .:osyy+`  
-        `/                        /o-     ossysyyyyyyyyysyyyyyyyyyyyyyyyyyhhh:                    -oyyyyyy.   
-        :-                         /s:``.-oosssyyyyyyyyssyyyyyyyyyyyyyyyyyyhhho-`               -oyyyyyyyy:   
-       `o`                       `  +sossyo+sosysyysyysssssssssssyyyyyyyyyyhhhhhso/--..```    `+yyyyyyyyyys:` 
-       /o                   .::///::/yysosssssssssyssssssysyssssossssssossossssysyys/..`     -yhyyyyyyyyyyyso:
-      .o+                 `+ooo+//::/oosoyysyysossyssosssysssssossssssssoooooooooy/`       `+hhhhyyyyyyysssss:
-     `+oo                `ysso+/////oooooyyssyyssssssossyysssssssssssssooooossoooooo+/-.``.shhhhhyyyyssyyyss: 
-     ++os-               /dsso+++++oooooosyyoyysyssssssssssssssssssosssossooooooooosssoooosyyyyhyyyyyyyyyyys  
-    `+os+:            `.:+dysyoooosossss+sssossossssssssyyyssssysssosssoooooosoossyysssoooooooossyyyyyyyyyy+  
-     -+o:`          -+oyyyhhyyysssssssyyosysoyysyyssooosssssosssssssosoosoooossoooooooooossooossssyyyyyyyyso  
-      .:`          /Mhhsyyyyhhhyyhhhyhhsyoyssosshhysos+soooooso+++osoosssssososyssssssssoooosssyyyyyyyyyyyys- 
-                  ..Nmssssyyhyhdhhdhhsssyssso+ossyssosooooooooo++o+ossooosossosssssssossssssyyhhhysssssssssss-
-                  .:ssoosssyhhyhhyyyyyoyssooo+ssosoooo+o++o+/++++++osooooosyysssososyyyysyyhddysssyssyyyyyss+:
-               .:+oososyyhyysyyyyhyyyyysys+ssoossyooo++oo++////+++ossssosssssssssssyyyyhhddmhyyyyyyyssssso-   
-            `:/+s+:/osssyyhyhshysyysyhyyssooososoyooo+o+/++o+//+osooosoossssssyssyyyyyhddssyyysyyyyyysys-     
-          `...-..-+ooossshyyssyyhsyysooosysosoooososs+//+/++++oosssssyyyyyyyyyyyyyhhhdh+`      ./oyyyys.      
-         .   `----``` `+ssyysysyshyhsoossossoo+osyoso/+++oosyyyyyyyyyyyyyyyyyyyhhhddy:            `:+s:       
-      `    `..   ``  .-../syysysyysshhyosoo++oooosos+/+oyyyyssyyhhhyyyhyhyhhyhdhddy-                 `-`      
-  `   .   .      ..``    `:ossssssysoyhyssso+osoysssssyyyyyhhhhhhhhhdhhhhhhddhhdy-                            
-. .`` `-  .`     .-   ``..``-oysossysoyysoyss+ooosyydhyhhhhhhhhhhhhhhhhhhhhhhhhy-                             
-s- -.` --  -`    -/``.` .    -/ysooossossysysoosossydhhhhhhyhhyhyyyyyyyyyyyyyo++//:---.`                      
--s/-/-` /:``:`  `:+. .  .`  .-.-ohsosssosssosyosooosmdhddhhhhhhhhyyyhyyyhhdo`       ```..                     
- -ooo+/sso+/++++o+oo+//-:--::.  .-yyssosooosoooyssoodddddddddddhdhdhhhhhdh:                                   
- .oo+ooyhyyssssoosssoooooo++++/::-/hsososossssosysosyddhhhhhhhhdddddddhds`                                    
-`yyhsooshyyyyyysssyyyyyyyyyyyysossooyhysooossssossssyddddhhhhhyyhhhhhddo                                      
-`syyyyysssyssyyyssssssyyysyyyyysyssysydyyssosssssyyysyhddmddhhhhhhyhhy+/:-.                                   
- /dhyyyhsossysyyoyyysyyyssyyyyyyyhyyyyhhyssooosyssyyysyyhddmdddhhhdds`  ``.-`                                 
-  smdhysyyyssyoosyssyyyyssyyyyyysyyyhhhdyysssossssyyyyssyhhddmmhddd/                                          
-  `oddhhyyyyyysssyoosyyyssyyyyyysyyyyyyhhyyyysssssyhhhysyhhhhdddds.                                           
-    -yddddhhyssssyysosoosssyyyyyyyyyyhhhhyyyyyssyyyyhhyyhhhhdddy+`                                            
-     `/hdddddhhyyyyyossossssyyyyyyyyyyyyyysyyyyyhyyyhhhhhddddh/`.-`                                           
-       ./ydddddddhhhyyyyssssosssssssssssyyyyyyhyyyyyhhhhddmh/`    `                                           
-         `-ohdddddddddddhhhhysyssyyyssyyyyyhhhyyyhhhhddddy:`                                                  
-            `:shddddddddddddddddddhhhhhhhhhhhhhhhddddmho-                                                     
-               `-+yhdddddddddddddddddddddddddddddddhs:`                                                       
-                   .:+shhhdddddddddddddddddmmddhs+:`                                                          
-                        `.-:/+oossyyyyhysoo+:-.                                                               
-                                                                                                              
-                                                                                                              
-                                                                                                                 
+
+                                            .                                             
+                                          ./`                                             
+                                        `/y-                                              
+                ```                    .syys-                                             
+             -:-...-::`               :yyhyyyo-`      ``                                  
+           .:`       `::`            :yyyyyhyyhyo+//+/`                                   
+          :.           .+-          :syyyyyyyyyyyyyyy+                                    
+         :`              //`       .syyyyyyyyyyysyyyyys:.                              .:-
+        :`                -o.      osyyyyyyyyyysyyyyyyyyyyo+/+o.`                  `:+so. 
+       -.                  -o-    -ssyyyyyyyyysyyyyyyyyyyyyyhhy`                 -oyyys`  
+      `/                    .s: `.+oysyyyyyyyssysyyyyyyyyyyyyhhy:              :yyyyyys   
+      :-                     .yosys+sssssysysssssssssyyyyyyyyyyhhyo/:--.`    -syyyyyyyyo` 
+     `o.              `:+++//:ssssysyssysysssyyysssssosssssooossosss/.      +hhyyyyyyyyss+
+     /o.             :sso//::/ooosyssysssysosssssssssssssssoosssoss/:.`   .yhhhhyyyysssss`
+    /oo:            `dss+++++ooosoyysysysyossssssssssyssssossooooooossoo++yyhhhyyyyyysss- 
+   `+oo+          `:/dyssoooossssossossssyosssyysssssssosssoooosoosyysssoooooosyyyyyyyys` 
+    .++`        /ysyyyhyhyssssyyssyyssyyysosossssosooossooosoooossooooooosoooyssyyyyyyys- 
+               `mdyssyyhyhhhdhyyssssoossyyssoooosooo+oossssssosossssssssososyyhysssssyyso`
+               -+yoosyyhhhhyyyyoysoooosssoosoo+o+/+++++oooooossssososssyyyyhhyyyyyyssssso/
+            .:oosoohhyysyyyhyyyyssooooossoo++oo+///++oossoosssssssssyyyhddmdyyyyyyssss/.  
+         `-:+/::+sssyyyyshysyyyysssososososoo/++o+/++o+osssssyyyyyyyyyhdo/++++yyyyyso.    
+       ````..-/:/-/sshssyyyyyso+ooyosoooyos+/+/++osyyyyyyyyyyyyyyyhhdd+`       ./oys`     
+     `   ``.` .  `--/syyysyyyyyssooo+o+osos//oyyyyyyhhhyyyyyyyyhhhdh/             `:`     
+  `  .  .`    .``    -ossssssoyhyoso+ooyssysyyyyyhhhhhhhhhhhhhdhhh/                       
+- .` `. ``    -. ```.` -syoosyosyssyo+oossdhyhhhhhhhhhhyyyyyhhhhh+.                       
+o/.-. :- .`   ::`.  .  ..+ssoosssssssosooshdhhhhhhhyhyyyyyyyyh+--..-----.                 
+`+o+/:o+/:/::/+o::-.-`-:` .+yssooossosssooyddddddddhhhhhhhhdh.                            
+ -s+osyyyssssosssooooo++/::.oyosssosssoysosddhhhhhdddddddhdo                              
+.hyyooyyyyyyyssyyyyyyyyyyossoshysooossosssshdddhhhhyhhhhhh+                               
+`yyyyhsosysyyssysssyssyyyyyyssshhyssosssyyyyhhdmddhhhhhhs..---`                           
+ :dhyyyyysyossyyyyyyssyyyyyhyhhhdysososssyyysshhdmddhdd+                                  
+  /ddhhyyyyssssooyyyshhyyysyyyyyhyyyyssssyhhysyhhhdddy.                                   
+   `odddhhysssysssoosoyyyyyyyhhhhysyyssyyyyhyyhdhddh+`                                    
+     -ydddddhhhyssssssosyysyyyyssyyyyyyyyhyhhhddmh/  .`                                   
+       .+hdddddddhhhyyyssssssssyyyyyhyyyhhhdddmh:                                         
+          -ohddddddddddddhhhhhhhhhhhhhhhdddddo-                                           
+             ./sddddddddddddddddddddddddmds:                                              
+                 .:/osydmmmdmmmmmmmdhyo:.                                                 
+                         ``....-.`                                                        
+                                                                                          
+
 Quickly deploy a containerized Wordpress/MariaDB instance in azure
 
 Note: This script works on debian distros only at this point (planned feature)
