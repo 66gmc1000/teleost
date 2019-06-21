@@ -1,30 +1,50 @@
 # teleost
+                                                                                                             `                    
+                                                                                                               ``  `.  .          
+                                                                                                            `...`.:.`--`          
+                                                                                                      ``   `-.--`..-: `.`         
+                                                                                                       `.` ``..-`-``.-`` `` `     
+                                                                                                    `.-:::----`:+:- `.``          
+                                                                                                `::::.   `.`-+ymm+:--``...... .  `
+                                                                                              -+/.       -.../+oo/``..` ``        
+                                                                                            :+.       ````-.` ` . `-``-.-         
+                                                                                          :/.    .`  ` `` `: :. -.. `` .  .`      
+                                                                                        :+.     ``       .-.`- `: .``             
+                                                                                      `/-               .. .` `.- .               
+                                                                                     -/`               `        `                 
+                                                                                   `/-                                            
+                          .-`                                `                    -/`                                             
+                        ..  .-             .  ``      .-/+ssyyo/-`               ::                                               
+                     `-` `-.  -`           `:`:-  `:++:-`-:::/osyy+-           `+-                                                
+                   .`  .-. `:. -`         `::.:+//:.```     `  .-+syso+-`     `+.                                                 
+                    `--` .-  /- :`       `---/o/  .-``` `          .`.-/s/..--/`                                                  
+                   `.  -::.:-`++-+`      -:+s+.                        ..:/-`o+.                                                  
+         `-//-.   `..::////::+:.`-+o:   :o:.`                    ```:/`     `:+ss/`                                               
+         -///oos+`  `.--::++o`   ``.+o::.                            .`      ``./ss:                                              
+        ::.-+so/:o/.    `--::`     ``-/o/-    ```                          . `.  `/o+`                                            
+      `  -+sss//+o:/o:.     `/:.`      `./+:-`--:+:`           .`          ``--``` `-//:/.                                        
+      .::/:/:--/+++/:/oso:---./sosso/:-.````.-`   +/`         `./..:`             ``./ysos`                                       
+     `.-:/+::/+//++//-. .:++/:-`  `..--:::.       `-`         `` `-./:.`          -+s+//:oo:                                      
+     .-/+o+/:::---:-                      `                     .+hd``.`       `/o+/:/`o+/sss:                                    
+    `..`./...:::::-.                                            --:`   `     .+o/:+  :/:o//+-+o`                                  
+    ``.+:-:/:::::.                    `               ..                   .o+:-o`o/`-+  +./: -o`                                 
+   `-:/o:-.-:::::.                    `..-::`      `.-.`:+-              `//:-o/-:`s.-.` ./--  -+                                 
+      ./.::-..--..:-.-://o+-`              .+             .            `//:::  o.-:/: +:  +:/   :-                                
+   ./+o/---://::-.        .:os/.            :`                        -/:+- :.`-/  .+  +-`: o.`` `                                
+   -/:-.`.-.`                 .o/`                                  `:-/-os.:-/-`-/.+  `o`+ //.s                                  
+                                :o-                                -:::  -s+`: /o..o+`  /:s`:s.y.                                 
+                            ``.+o-/+-                            ---+`-`-+`o /. -s- :s` -o/.+s+s`                                 
+                       `..`-::-.   .o+/::::`                    --:/s::o+/-/.:/  .s. oo +y..+ss/                                  
+                       ::--------:/.  `.-:://-`               `+:-/+sssososooooss/+s`:+//o:::+o`                                  
+                                             ./+.            -+-.`-:-:.::o++++-/+::-:-`````  -.                                   
+                                               `//          :/o.   `-:/+/--.``  `.....````.-:-                                    
+                                                 -/        ::s..:os+/.   `.---..`   `.::---`                                      
+                                                   /:`     `-sss/-` `````   `.--:////-`                                           
+                                                    -o:    ..      `..-:://:-.``                                                  
+                                                      -+/::---:/:::-..`                                                           
+                                                        `.-:::.                                                                   
+                                                                                                                                  
 
-                                                                                                              
-                         `.-:/++/-`                                                                           
-                     .:osso+/:--:oys-                                                    ``..`                
-                  `/sy+-`         `/d+                                               `-+yhdh+.                
-                 -hy-               .ds           `..`  .ss/`  ``                 `-sdmNMd/`                  
-                .h/                  -m+    ````  :NMh.  /MMh` -hs.   `          :hmshNNo`                    
-                :+                    +m../ydmNd:  /NMN:  +MMd` :NN: `+s-      .ym+/mMm-                      
-                :/                    `hyNMMMMMMMs` /MMN:  yMMs  +MN-  yMs    /mo`+MMM:                       
-                -s`                 `omMMMMMNNhsMMd. +MMN. .NMM/:/NMd++oMMo:-oN/``smMM.                       
-                `hs               `+NMMMMNy/.   dMMm::mMMmmNMMMMMMMMMmysdMh++odMMNdyyhm+                      
-                 .m+`````        :mMMMNy:  -+y  NMMMMMMMMMMMMMMMy/-hM+  oM/    -odNMMMdNy                     
-                  --.```..`    `sMMMm+`.+hNMMy oMMMMMMMMMMMmsoMM:  /Mo  sh         ./ohNMs                    
-                  ..`   ``.`  -mMMm/.omMMMMMy.yMMMMMMMMMNMN   mM+  `M+  o`              :s                    
-                  ..`` ```.` /NMN+:yMMMNmhyoyNMMMMMMMMd.:MM`  sM+   N.                                        
-                   `.....`  +MMy:hMMMMNmNNMMMMMMMMMMMMy  NM.  :M:   o                                         
-                           +MNoyMMMMMMMMMMMMMMNy+:..-//  yM`  .m   `                                          
-                          :MNsmMMMMMMMMMMMMMMh/oydddy/   od   .:                                              
-                         `mMdMMMMMMMMMMMMMMMMmNMMMMMMM:  o/                                                   
-                         sMMMMMMMMMMMmhs/-..yMMMMMMMMN`  -                                                    
-                         /osyyyyso/:.``    .sMMMMMMMm-                                                        
-                      .+oo//:::---::::/+sydNMMMMMMNy.                                                         
-                        .+hmNMNNNNNNMMMMMMMMMMMNdo.                                                           
-                           `.:+syhddmmmmmddhyo:.`                                                             
-                                  ````.````                                                                   
-                                                                                                              
                                                                                                             
 Quickly deploy a containerized Wordpress/MariaDB instance in azure
 
