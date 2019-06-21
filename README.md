@@ -62,16 +62,7 @@ To Deploy:
 - Switch to the repo root directory: `cd teleost`
 - Execute `./deploy-teleost.sh` with required parameters:
 
-`./deploy-teleost.sh '
---app=teleost '
---environment=play '
---size=Standard_DS1_v2 '
---region=eastus '
---hostname=teleost '
---subscriptionid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx '
---clientid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx '
---clientsecret=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx '
---tenantid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
+`./deploy-teleost.sh --app=teleost --environment=play --size=Standard_DS1_v2 --region=eastus --hostname=teleost --subscriptionid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --clientid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --clientsecret=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --tenantid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 
 - Visit http://IPADDRESS/wp-admin to configure your newly install Wordpress instance
 
