@@ -1,39 +1,31 @@
 # teleost
 
-                                                                                                                                                     
-                  ``..---.`                                                                                                        
-            `.:+syhhhhyyyhhy/.                                                                                                     
-         ./shhyo/-.``    `./hmo`                                                                      `..-:/-                      
-      `:ydh+.               `/md:                                                                 `:oydNNNy:`                      
-     -hmo.                    .hN/                        -::.`                                `/ymNMMMNs.                         
-    /my.                       .dN:              `oyy+`   -mMMd-   :+-`                      -smNhymMNy.                           
-   -ys                          -mm.     ``...   `yMMMd-   .mMMN/  `yMd+    ``             -yNmo+dMMm:                             
-   :o`                           +Ns `-+ydNMMNs`   sMMMN:   -NMMN/   yMMy`  :ys-         `sNm/.yMMMh`                              
-   :+                             +N/dMMMMMMMMMm:   oMMMN/   /MMMN.  `dMMy   .mMy.      :mNo`.mMMMd`                               
-   :o.                          `/dMmMMMMMMMMMMMMo   sMMMN-   yMMMd   -NMM/   :MMm`    oNh. `mMMMM/                                
-   -yo                        `+mMMMMMMMMNmhs/yMMMh`  hMMMm` `.NMMMs+oomMMNyyyyNMMho+/sMd:-``+yNMMs                                
-    sm:                      /mMMMMMMMmy/.    :MMMMd``:NMMMmmNMMMMMMMMMMMMMMmdhhMMmooosdMMMMNdyooyNh-                              
-    .dm.                   -dMMMMMMmo-    .-  /MMMMMNMMMMMMMMMMMMMMMMNdsyMMy   .MMs     :smMMMMMMmyhN+                             
-     .dy.......`         `sMMMMMNy:   -ohmMy  hMMMMMMMMMMMMMMMMMMMMMs   `NMd   .MN.        -+sdNMMMNMMo                            
-      ...``````..`      :mMMMMNo` `+hNMMMMM- +MMMMMMMMMMMMMMMNy/.dMMh    hMd   -M+              ./ohNMM-                           
-     ...``    ``..`    oMMMMm+ `+dMMMMMMMN:`sMMMMMMMMMMMMMMMM:   /MMm    +Mh   +o                    :ho                           
-     ...``    ``..`  `hMMMN+`-yNMMMMMMMmo-+mMMMMMMMMMMMNs:mMMo   `NMm    -M+   .                       `                           
-      ...``````...  .mMMMy./dMMMMmdhysosdMMMMMMMMMMMMMMo  oMMs    hMd    -N`                                                       
-       ``......``  -mMMm::dMMMMMMMMMMMMMMMMMMMMMMMMMMMMs  .MMy    +Ms    :/                                                        
-                  -NMMy:hMMMMMMMMMMMMMMMMMMMMNhs+/::/oh+   mMs    :M:    .                                                         
-                 .mMMsoNMMMMMMMMMMMMMMMMMMMN+`.-://:.      yM/    :h                                                               
-                `dMMshMMMMMMMMMMMMMMMMMMMMm/sdNNMMMMNm/    sN`    -`                                                               
-                oMMmmMMMMMMMMMMMMMMMMMMMMMmNMMMMMMMMMMN`   so                                                                      
-               -MMMMMMMMMMMMMMMMMMNdy+/:/hMMMMMMMMMMMMm    +`                                                                      
-               sMMMMMMMMMMMNmdys/-``     `NMMMMMMMMMMN-    `                                                                       
-           `   `.-://///::..``         `:yMMMMMMMMMMm-                                                                             
-           `+ss+/::---.......---::/+sydmNMMMMMMMMMNs`                                                                              
-             .+hmMNNNNNNNNNNNNNNNMMMMMMMMMMMMMMMdo.                                                                                
-                .:+ydmNMMMMMMMMMMMMMMMMMMMMNmho-`                                                                                  
-                    `..:/osyhhdddddddhhys+:.`                                                                                      
-                             `````````                                                                                             
-                                                                                                                                                      
-
+                                                                                                              
+                         `.-:/++/-`                                                                           
+                     .:osso+/:--:oys-                                                    ``..`                
+                  `/sy+-`         `/d+                                               `-+yhdh+.                
+                 -hy-               .ds           `..`  .ss/`  ``                 `-sdmNMd/`                  
+                .h/                  -m+    ````  :NMh.  /MMh` -hs.   `          :hmshNNo`                    
+                :+                    +m../ydmNd:  /NMN:  +MMd` :NN: `+s-      .ym+/mMm-                      
+                :/                    `hyNMMMMMMMs` /MMN:  yMMs  +MN-  yMs    /mo`+MMM:                       
+                -s`                 `omMMMMMNNhsMMd. +MMN. .NMM/:/NMd++oMMo:-oN/``smMM.                       
+                `hs               `+NMMMMNy/.   dMMm::mMMmmNMMMMMMMMMmysdMh++odMMNdyyhm+                      
+                 .m+`````        :mMMMNy:  -+y  NMMMMMMMMMMMMMMMy/-hM+  oM/    -odNMMMdNy                     
+                  --.```..`    `sMMMm+`.+hNMMy oMMMMMMMMMMMmsoMM:  /Mo  sh         ./ohNMs                    
+                  ..`   ``.`  -mMMm/.omMMMMMy.yMMMMMMMMMNMN   mM+  `M+  o`              :s                    
+                  ..`` ```.` /NMN+:yMMMNmhyoyNMMMMMMMMd.:MM`  sM+   N.                                        
+                   `.....`  +MMy:hMMMMNmNNMMMMMMMMMMMMy  NM.  :M:   o                                         
+                           +MNoyMMMMMMMMMMMMMMNy+:..-//  yM`  .m   `                                          
+                          :MNsmMMMMMMMMMMMMMMh/oydddy/   od   .:                                              
+                         `mMdMMMMMMMMMMMMMMMMmNMMMMMMM:  o/                                                   
+                         sMMMMMMMMMMMmhs/-..yMMMMMMMMN`  -                                                    
+                         /osyyyyso/:.``    .sMMMMMMMm-                                                        
+                      .+oo//:::---::::/+sydNMMMMMMNy.                                                         
+                        .+hmNMNNNNNNMMMMMMMMMMMNdo.                                                           
+                           `.:+syhddmmmmmddhyo:.`                                                             
+                                  ````.````                                                                   
+                                                                                                              
+                                                                                                            
 Quickly deploy a containerized Wordpress/MariaDB instance in azure
 
 Note: This script works on debian distros only at this point (planned feature)
