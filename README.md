@@ -1,6 +1,7 @@
 # teleost
-quickly deploy a containerized wordpress/mariadb instance in azure
-*Note* this works on debian distros only at this point (planned feature)
+Quickly deploy a containerized Wordpress/MariaDB instance in azure
+
+Note: This script works on debian distros only at this point (planned feature)
 
 Features:
 - Ubuntu 16.04 Server base image
