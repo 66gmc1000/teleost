@@ -36,5 +36,5 @@ Execute ./deploy-teleost.sh and the required parameters on the command line in t
 
 Defaults:
 
-MYSQL_ROOT_PASSWORD = password
-MYSQL_DATABASE = wordpress
+- MYSQL_ROOT_PASSWORD = password
+- MYSQL_DATABASE = wordpress
