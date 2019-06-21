@@ -25,14 +25,16 @@ Prereqs:
     - tenant_id
 
 To Deploy:
-- Clone image: git clone https://github.com/66gmc1000/teleost.git
-- Switch to the repo root directory: cd teleost
-- Execute ./deploy-teleost.sh and the required parameters on the command line in the format below:
+- Clone image: `git clone https://github.com/66gmc1000/teleost.git`
+- Switch to the repo root directory: `cd teleost`
+- Execute `./deploy-teleost.sh` and the required parameters on the command line in the format below:
 
-./deploy-teleost.sh --app=teleost --environment=play --size=Standard_DS1_v2 --region=eastus --hostname=teleost --subscriptionid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --clientid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --clientsecret=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --tenantid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+`./deploy-teleost.sh --app=teleost --environment=play --size=Standard_DS1_v2 --region=eastus --hostname=teleost --subscriptionid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --clientid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --clientsecret=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --tenantid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 
 
-Defaults:
+Defaults (can be edited via ansible/roles/deploy/tasks/main.yml):
 
-- MYSQL_ROOT_PASSWORD = password
-- MYSQL_DATABASE = wordpress
+- MYSQL_ROOT_PASSWORD: wordpress
+- MYSQL_DATABASE: wordpress
+- MYSQL_USER: wordpress
+- MYSQL_PASSWORD: wordpress
