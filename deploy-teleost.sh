@@ -35,10 +35,33 @@ elif [[ -z "$(az account list | grep 'AzureCloud')" ]]; then
   az login --allow-no-subscriptions
 fi
 
-# terraform=$(which terraform)
-# ansible=$(which ansible-playbook)
+# check if terraform is installed or not
+if [[ -z "$(type terraform --version)" ]]; then
+  read -p "Terraform is not installed. Press [Enter] to install now..."
+  sudo apt-get install unzip
+  mkdir temp
+  cd temp
+  wget https://releases.hashicorp.com/terraform/0.12.2/terraform_0.12.2_linux_amd64.zip
+  unzip terraform_0.12.2_linux_amd64.zip
+  sudo mv terraform /usr/local/bin/
+  cd ..
+  rm -rf temp
+  terraform --version
+fi
 
-# ssh-keygen -t rsa -b 4096 -f ./ansible-key -N ''
+# check if ansible is installed or not
+if [[ -z "$(sudo ansible-playbook)" ]]; then
+  read -p "Ansible is not installed. Press [Enter] to install now..."
+  sudo apt install software-properties-common
+  sudo apt-add-repository ppa:ansible/ansible -y
+  sudo apt update
+  sudo apt install ansible -y
+fi
+
+terraform=$(which terraform)
+ansible=$(which ansible-playbook)
+
+ssh-keygen -t rsa -b 4096 -f ./ansible-key -N ''
 
 # echo $terraform apply -var app_name=${APP} -var environment=${ENVIRONMENT} -var num_servers=${NUM} -var instance_type=${SIZE} terraform 
 # $terraform apply -var app_name=${APP} -var environment=${ENVIRONMENT} -var num_servers=${NUM} -var instance_type=${SIZE} -var ssh_key="$(cat ./ansible-key.pub)" terraform
