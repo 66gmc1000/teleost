@@ -23,6 +23,7 @@ Prereqs:
     - client_id
     - client_secret
     - tenant_id
+- A debian based machine with sudo privileges to execute the deployment from
 
 To Deploy:
 - Clone image: `git clone https://github.com/66gmc1000/teleost.git`
@@ -31,6 +32,7 @@ To Deploy:
 
 `./deploy-teleost.sh --app=teleost --environment=play --size=Standard_DS1_v2 --region=eastus --hostname=teleost --subscriptionid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --clientid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --clientsecret=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --tenantid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 
+- Visit http://<VPSipAddress>/wp-admin to configure your newly install Wordpress instance
 
 Defaults (can be edited via ansible/roles/deploy/tasks/main.yml):
 
