@@ -38,7 +38,7 @@ do
     esac
 done
 
-# check if awscli installed or not
+# check if Azure cli installed or not
 if [[ -z "$(type az)" ]]; then
   read -p "Azure CLI is not installed. Installing and logging in Press [Enter]..."
   curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash 
