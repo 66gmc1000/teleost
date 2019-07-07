@@ -1,3 +1,5 @@
+# define variables
+
 variable "instance_type" {
   type = string
   default = "Standard_DS1_v2"
@@ -43,12 +45,18 @@ variable "tenant_id" {
   default = "test"
 }
 
+# specify providers
+
 provider "azurerm" {
     subscription_id = "${var.subscription_id}"
     client_id       = "${var.client_id}"
     client_secret   = "${var.client_secret}"
     tenant_id       = "${var.tenant_id}"
 }
+
+####
+# start deployment
+####
 
 # Create a resource group if it doesn’t exist
 resource "azurerm_resource_group" "myterraformgroup" {
