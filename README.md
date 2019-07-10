@@ -70,10 +70,7 @@ To Destroy:
 - Switch to the repo root directory: `cd teleost`
 - Execute `./destroy-teleost.sh` with required parameters:
 
-`./destroy-teleost.sh --subscriptionid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx \
---clientid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx \
---clientsecret=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx \
---tenantid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
+`./destroy-teleost.sh --subscriptionid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --clientid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --clientsecret=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --tenantid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 
 Defaults (can be edited via ansible/roles/deploy/tasks/main.yml):
 
