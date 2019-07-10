@@ -51,11 +51,11 @@ Features:
 
 
 Prereqs:
-    - Valid Azure subscription
-    - subscription_id
-    - client_id
-    - client_secret
-    - tenant_id
+- Valid Azure subscription
+- subscription_id
+- client_id
+- client_secret
+- tenant_id
 
 To Deploy:
 - Clone image: `git clone https://github.com/66gmc1000/teleost.git`
@@ -65,6 +65,15 @@ To Deploy:
 `./deploy-teleost.sh --app=teleost --environment=play --size=Standard_DS1_v2 --region=eastus --hostname=teleost --subscriptionid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --clientid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --clientsecret=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --tenantid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 
 - Visit http://IPADDRESS/wp-admin to configure your newly install Wordpress instance
+
+To Destroy:
+- Switch to the repo root directory: `cd teleost`
+- Execute `./destroy-teleost.sh` with required parameters:
+
+`./destroy-teleost.sh --subscriptionid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx \
+--clientid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx \
+--clientsecret=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx \
+--tenantid=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 
 Defaults (can be edited via ansible/roles/deploy/tasks/main.yml):
 
